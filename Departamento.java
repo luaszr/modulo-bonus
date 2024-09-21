@@ -18,7 +18,7 @@ private class Departamento {
     }
 
     public void adicionarFuncionario(Funcionario funcionario){
-        this.funcionarios.add(funcionario);,
+        this.funcionarios.add(funcionario);
     }
 
 
