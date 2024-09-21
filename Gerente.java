@@ -8,7 +8,7 @@ public class Gerente extends Funcionario{
         return this.id;
     }
 
-    public int getSalario(){
+    public double getSalario(){
         return this.salario;
     }
 

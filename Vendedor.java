@@ -1,6 +1,7 @@
 public class Vendedor extends Funcionario{
-
-    public Vendedor(int id, double salario, int codigoDepartamento, int comissao, int qntdVendas){
+    private double comissao;
+    private double qntdVendas;
+    public Vendedor(int id, double salario, int codigoDepartamento, double comissao, double qntdVendas){
         super(id, salario, codigoDepartamento);
         this.comissao = comissao;
         this.qntdVendas = qntdVendas;
@@ -10,7 +11,7 @@ public class Vendedor extends Funcionario{
         return this.id;
     }
 
-    public int getSalario(){
+    public double getSalario(){
         return this.salario;
     }
 
@@ -18,11 +19,11 @@ public class Vendedor extends Funcionario{
         return this.codigoDepartamento;
     }
 
-    public int getComissao(){
+    public double getComissao(){
         return this.comissao;
     }
 
-    public int getQtndVendas(){
+    public double getQtndVendas(){
         return this.qntdVendas;
     }
 
