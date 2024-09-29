@@ -6,7 +6,7 @@ public class Funcionario{
     public Funcionario(int id, double salario, int codigoDepartamento){
         this.id = id;
         this.salario = salario;
-        this.codigoDepartamento =  codigoDepartamento;
+        this.codigoDepartamento = codigoDepartamento;
     }
 
     public int getId(){

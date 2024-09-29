@@ -4,16 +4,4 @@ public class Gerente extends Funcionario{
             super(id, salario, codigoDepartamento);
     }
 
-    public int getId(){
-        return this.id;
-    }
-
-    public double getSalario(){
-        return this.salario;
-    }
-
-    public int getCodigoDepartamento(){
-        return this.codigoDepartamento;
-    }
-
 }
